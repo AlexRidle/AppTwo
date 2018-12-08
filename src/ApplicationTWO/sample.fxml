@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #434343;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationTWO.Controller">
+   <children>
+      <TextArea fx:id="statusOutput" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="310.0" prefWidth="672.0" />
+      <ProgressBar fx:id="formattingProgress" layoutX="14.0" layoutY="338.0" prefHeight="48.0" prefWidth="672.0" progress="0.0" />
+   </children>
+</AnchorPane>
